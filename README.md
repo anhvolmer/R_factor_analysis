@@ -1,1 +1,1 @@
-# R_factor_analysis
+Here is some sample R code that I used to determine which survey questions our team should keep before sending out the survey to our polling team. In short, questions with similar loadings to a factor were considered duplicative, and only one question would be retained. This is important for several reasons. Aside from working within a limited budget for our survey process, I wanted to ensure that the questions we were asking would add value to the model and were not redundant.
