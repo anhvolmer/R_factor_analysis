@@ -8,8 +8,8 @@ library(ggplot2)
 library(reshape2)
 library(tidyverse)
 
-setwd("D:\Projects\TargetSmart\National Models\Models\SOURCE_DATA")
-sharesvals_mp <- read.csv("targetsmart_moral_pillars_2023_01_final.csv")
+setwd("D:\~")
+sharesvals_mp <- read.csv("~")
 # sharesvals_b <- read.csv("06292022_SHARESVALS_SB.csv")
 
 
