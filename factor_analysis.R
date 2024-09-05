@@ -9,8 +9,8 @@ library(reshape2)
 library(tidyverse)
 
 setwd("D:\Projects\TargetSmart\National Models\Models\SOURCE_DATA")
-sharesvals_mp <- read.csv("civiqs_targetsmart_moral_pillars_2023_01_final.csv")
-# sharesvals_b <- read.csv("NEPA_06292022_SHARESVALS_SB.csv")
+sharesvals_mp <- read.csv("targetsmart_moral_pillars_2023_01_final.csv")
+# sharesvals_b <- read.csv("06292022_SHARESVALS_SB.csv")
 
 
 full_form <- as.formula(paste("Authority ~ ",paste(variable.names(sharesvals_mp[,8:12]),collapse="+")))
